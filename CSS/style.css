@@ -1,0 +1,110 @@
+
+@font-face{
+    font-family: Tinyduo;
+    src: url(./fuentes/Tinyduo/Tiny5Duo-Italic-VariableFont_BLED\,JITT\,ROND\,wdth\,wght.ttf)
+}
+
+@font-face {
+    font-family: squada;
+    src: url(./fuentes/squada/SquadaOne-Regular.ttf);
+}
+
+
+/*### Estilo del titulo###*/
+h1{
+   font-family:Tinyduo ; 
+   font-size: 100px;
+   font-weight: 450;
+   color: cornflowerblue;
+
+   text-align: center;
+}
+
+/* Estilo del parrafo de presentación */
+
+#introduction{
+    font-family: squada;
+    font-weight: 100;
+}
+
+/* primera parte del cuadro nombre y enlaces de la parte superior */
+
+#superior{
+    border: solid black;
+    background: rgb(54, 197, 233);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; /* nombre a la izquierda, links a la derecha */
+    align-items: center;            /* los centra en vertical entre sí */
+    padding: 10px 20px;             /* espacio interno, como en la imagen */
+}
+
+
+/* Estylo de mi nombre */
+#autor{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    border: dashed brown;
+    padding: 10px;
+}
+
+
+/* Estilo del menú */
+#menu a{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border-radius: 5px;
+    background: beige;
+    font-weight: bold;
+    padding: 6px 14px;
+}
+
+/* Estilo del bloque main */
+
+#bloques{
+    border: 2px solid black;
+    background: beige;
+}
+
+#bloques section{
+    border: dashed 1px;
+    padding: 0.1px;
+}
+
+#bloques >section>h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    display: flex;
+    color: white;
+    width:fit-content ;
+    padding: 5px 8px;
+    border-radius: 15%;
+}
+
+/* Estética de cada bloque por separado */
+
+
+#learning h2{
+    background:  darkgray;
+    }
+
+#presentation h2{
+    background: blue;
+}
+
+#contact h2{
+    background-color: orange;
+}
+
+#contact a{
+    margin-right: 10px;
+}
+
+#projects h2{
+    background-color: green;
+}
+
+
+
