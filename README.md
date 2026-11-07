@@ -6,7 +6,7 @@ This repo is my living portfolio: I build small projects here and write down wha
 
 ## What's here
 - `log.md`: my daily learning log
+- [Live page](https://guidodev21.github.io/Portafolio-vivo/): my portfolio page, built with HTML and CSS
 
 ## This week
-- A portfolio page in HTML and CSS
 - A conversion rate calculator in Python
