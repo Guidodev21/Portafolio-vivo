@@ -17,3 +17,8 @@
 - Learned: how to style a page by being specific about each part, using CSS selectors.
 - Stuck on: I had trouble applying styles to my HTML page because there was so much new information in the course.
 - Fixed by: using different tools and reviewing the videos to reorder every step, and then moving forward to achieve a different look for the page.
+
+## Day 4 and 5 - Thu 5 and Fri 6 Nov
+- Learned: how to use media queries to make the page responsive, and how to use CSS Grid to lay out my project cards.
+- Stuck on: understanding floats, and making the content fit the screen on both PC and phone.
+- Fixed by: going over the course videos, searching the internet, and doing exercises with Claude to understand the concepts, and then applying them to a real project.

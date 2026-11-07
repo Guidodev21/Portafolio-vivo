@@ -31,7 +31,7 @@ h1{
 
 #superior{
     border: solid black;
-    background: rgb(54, 197, 233);
+    background: rgb(36, 70, 161);
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between; /* nombre a la izquierda, links a la derecha */
@@ -40,12 +40,14 @@ h1{
 }
 
 
-/* Estylo de mi nombre */
-#autor{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+#autor{                                      /* Estilo de mi nombre */
+    font-family:squada;
     margin: 0;
-    border: dashed brown;
+    border: double brown;
     padding: 10px;
+    font-size: 200%;
+    font-weight: 100;
 }
 
 
@@ -65,12 +67,21 @@ h1{
 #bloques{
     border: 2px solid black;
     background: beige;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+   
 }
+
 
 #bloques section{
     border: dashed 1px;
     padding: 0.1px;
+
 }
+
+
 
 #bloques >section>h2{
     font-family: Arial, Helvetica, sans-serif;
@@ -82,6 +93,18 @@ h1{
     padding: 5px 8px;
     border-radius: 15%;
 }
+
+#projects{
+    font-style: italic;
+    text-decoration: none;
+}
+
+.project{
+    list-style: none;
+    padding-left: 0%;
+}
+
+
 
 /* Estética de cada bloque por separado */
 
@@ -107,4 +130,28 @@ h1{
 }
 
 
+/* Responsive */
 
+@media(max-width: 550px){
+   h1{
+    font-size: larger;
+   }
+}
+
+@media(max-width: 490px){
+    
+    #menu{
+        display: grid;
+        gap: 3px;
+    }
+}
+
+@media(max-width: 390px){
+   
+    #bloques{
+       
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+}
