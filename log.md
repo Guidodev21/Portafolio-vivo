@@ -22,3 +22,8 @@
 - Learned: how to use media queries to make the page responsive, and how to use CSS Grid to lay out my project cards.
 - Stuck on: understanding floats, and making the content fit the screen on both PC and phone.
 - Fixed by: going over the course videos, searching the internet, and doing exercises with Claude to understand the concepts, and then applying them to a real project.
+
+## Day 6 - Sat 7 Nov
+- Learned: how to use while loops and how to handle errors with try and except. I also went over Python basics to build a calculator for a sales team.
+- Stuck on: the logic behind while loops, and what try and except do.
+- Fixed by: reading Python tutorials and the official documentation: https://ellibrodepython.com
