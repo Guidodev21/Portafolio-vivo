@@ -40,3 +40,9 @@
 - Stuck on: Two separate `if`s: the error message appeared, but the calculation still ran.
 - Fixed by: Testing edge cases and following the code step by step.
 - Alone or with help: I wrote and fixed the whole JS file. I needed hints from Claude to find where the error was.
+
+## Day 11 and 12 - Thu 12 and Fri 13 Nov (done Sat 14 Nov)
+- Learned: How to create a function that receives leads and closed sales and returns the conversion rate. I also made sure that wrong inputs cannot break the program.
+- Stuck on: Function logic and understanding callbacks.
+- Fixed by: Rewatching the course videos and DeepSeek's explanations.
+- Alone or with help: I wrote and fixed the JavaScript functions by myself, but I used DeepSeek to understand callbacks.
