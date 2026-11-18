@@ -46,3 +46,30 @@
 - Stuck on: Function logic and understanding callbacks.
 - Fixed by: Rewatching the course videos and DeepSeek's explanations.
 - Alone or with help: I wrote and fixed the JavaScript functions by myself, but I used DeepSeek to understand callbacks.
+
+
+## Day 13 - Sat 15 Nov
+- Learned: Refactored a Python calculator script into a clean, interactive function. Learned the difference between "receiving data" (parameters) vs "interacting with the user" (input()). 
+- Stuck on: The `return` statement (I thought it printed to the screen), and how to validate inputs without breaking the whole loop.
+- Fixed by: Doing mental traces of the code and using a step-by-step approach with visual examples. 
+- Alone or with help: DeepSeek provided the concepts and guided the refactoring, but I wrote the final logic and nested loops myself.
+
+## Day 14 - Sun 16 Nov
+- Learned: JavaScript `for` loop structures (classic, `for...in`, `for...of`). Understood how `forEach` works and what arrow functions (`=>`) are.
+- Stuck on: The arrow function syntax. I didn't understand if the variable *was* the function or just stored it.
+- Fixed by: Comparing it to a TV remote (variable) and the TV (function). 
+- Alone or with help: DeepSeek explained the concepts, and I did the mental exercises.
+
+## Day 15 - Mon 17 Nov
+- Learned: Array methods like `find()` and `sort((a, b) => a - b)`. Learned how to search for elements and return their index. Finished the 6-number array exercise.
+- Stuck on: The math behind `sort()` (why `a - b` orders from minor to major) and how `find` works with callbacks.
+- Fixed by: Realizing that `1 - 2` is `-1` (negative), which tells the computer to keep the smaller number first.
+- Alone or with help: I figured out the math logic myself after DeepSeek corrected my subtraction mistake.
+
+## Day 16 - Tue 18 Nov 
+- Learned: Solidified the core logic of functions! Created a search function from scratch (using a `for` loop) to find array indexes. Also created a price calculator with discounts.
+- Stuck on: Understanding how the `[i]` index works inside a loop, and where the "invisible" parameter (like `lista`) comes from. Also struggled with mathematical logic for percentages.
+- Fixed by: Visualizing the loop `for` as an elevator that goes up floors (`i`), and `[i]` as the key to open the door at that specific floor. DeepSeek explained the math error in the calculator, and I fixed it.
+- Alone or with help: I wrote the `buscarNumero` function and the `calcularPrecio` function all by myself. DeepSeek helped me debug the logic and understand the mental model behind the loops.
+
+

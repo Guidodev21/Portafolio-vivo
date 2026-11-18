@@ -51,3 +51,7 @@ else{
 }
 
 calculadora(10, 0)
+
+
+//Buscador de elementos en Array con función incluida
+
